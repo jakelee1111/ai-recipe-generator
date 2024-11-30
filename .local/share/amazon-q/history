@@ -1,0 +1,115 @@
+
+- command: cd profilesapp
+  exit_code: 0
+  shell: bash
+  session_id: f6ddcc5ec6c14aa7848748ed19b841b4
+  cwd: /home/cloudshell-user/profilesapp
+  time: 1732983299
+- command: npm install                                                                                                                                                                                                                                                                                                                                                             added 248 packages, and audited 249 packages in 30s                                                                                                                                                                                                                                                                                                                                                                                                   102 packages are looking for funding                                                                                                                                                                                         run `npm fund` for details                                                                                                                                                                                                                                                                                                                                                                                                                          found 0 vulnerabilities
+  exit_code: 0
+  shell: bash
+  session_id: f6ddcc5ec6c14aa7848748ed19b841b4
+  cwd: /home/cloudshell-user/profilesapp
+  time: 1732983343
+- command: cat .ssh/id_ed25519.pub                                                                                                                                            ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOH6cgQdyDL1U1wbs/jKB/aqxIpUPbM3KGnDPiCeT4mL jacoblee1190@gmail.com
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983632
+- command: ssh -T git@github.com                                                                                                                                                                The authenticity of host 'github.com (140.82.112.3)' can't be established.                                                                                                                                                 ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.                                                                                                                                             This key is not known by any other names                                                                                                                                                                                   Are you sure you want to continue connecting (yes/no/[fingerprint])? yes                                                                                                                                                   Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.                                                                                                                                              Hi jakelee1111/ai-recipe-generator! You've successfully authenticated, but GitHub does not provide shell access.
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983803
+- command: git init                                                                                                                                                           hint: Using 'master' as the name for the initial branch. This default branch name                                                                                                                                          hint: is subject to change. To configure the initial branch name to use in all                                                                                                                                             hint: of your new repositories, which will suppress this warning, call:                                                                                                                                                    hint:                                                                                                                                                                                                                      hint: \t git config --global init.defaultBranch <name>                                                                                                                                                                      hint:                                                                                                                                                                                                                      hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and                                                                                                                                                    hint: 'development'. The just-created branch can be renamed via this command:                                                                                                                                              hint:                                                                                                                                                                                                                      hint: \t git branch -m <name>                                                                                                                                                                                               Initialized empty Git repository in /home/cloudshell-user/.git/
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983875
+- command: git add                                                                                                                                                            Nothing specified, nothing added.                                                                                                                                                                                          hint: Maybe you wanted to say 'git add .'?                                                                                                                                                                                 hint: Turn this message off by running                                                                                                                                                                                     hint: \"git config advice.addEmptyPathspec false\"
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983891
+- command: git add .
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983913
+- command: git commit -m \"first commit\"                                                                                                                                       Author identity unknown                                                                                                                                                                                                                                                                                                                                                                                                                               *** Please tell me who you are.                                                                                                                                                                                                                                                                                                                                                                                                                       Run                                                                                                                                                                                                                                                                                                                                                                                                                                                     git config --global user.email \"you@example.com\"                                                                                                                                                                           git config --global user.name \"Your Name\"                                                                                                                                                                                                                                                                                                                                                                                                           to set your account's default identity.                                                                                                                                                                                    Omit --global to set the identity only in this repository.                                                                                                                                                                                                                                                                                                                                                                                            fatal: empty ident name (for <cloudshell-user@ip-10-134-54-179.ec2.internal>) not allowed
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983923
+- command: git config --global user.name \"Jacob Lee\"
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983991
+- command: git config --global user.email \"jacoblee1190@gmail.com\"
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732983991
+- command: git remote add origin git@github.com:jacoblee1190/ai-recipe-generator.git
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984011
+- command: git branch -M main
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984023
+- command: git push -u origin main                                                                                                                                            error: src refspec main does not match any                                                                                                                                                                                 error: failed to push some refs to 'github.com:jacoblee1190/ai-recipe-generator.git'
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984031
+- command: git push -u origin main                                                                                                                                            error: src refspec main does not match any                                                                                                                                                                                 error: failed to push some refs to 'github.com:jacoblee1190/ai-recipe-generator.git'
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984075
+- command: error: src refspec main does not match any                                                                                                                         bash: error:: command not found
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984075
+- command: error: failed to push some refs to 'github.com:jacoblee1190/ai-recipe-generator.git'                                                                               bash: error:: command not found
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984078
+- command: git push -u origin main                                                                                                                                            error: src refspec main does not match any                                                                                                                                                                                 error: failed to push some refs to 'github.com:jacoblee1190/ai-recipe-generator.git'
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984081
+- command: error: src refspec main does not match any                                                                                                                         bash: error:: command not found
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984081
+- command: error: failed to push some refs to 'github.com:jacoblee1190/ai-recipe-generator.git'                                                                               bash: error:: command not found
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984083
