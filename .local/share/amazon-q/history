@@ -113,3 +113,51 @@
   session_id: 5f37138097014724be4e8f82f842c593
   cwd: /home/cloudshell-user
   time: 1732984083
+- command: git add .
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984185
+- command: git branch -M main
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984206
+- command: git push -u origin main                                                                                                                                            ERROR: The key you are authenticating with has been marked as read only.                                                                                                                                                   fatal: Could not read from remote repository.                                                                                                                                                                                                                                                                                                                                                                                                         Please make sure you have the correct access rights                                                                                                                                                                        and the repository exists.
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984206
+- command: ssh-keygen -t ed25519 -C \"jacoblee1190@gmail.com\"                                                                                                                  Generating public/private ed25519 key pair.                                                                                                                                                                                Enter file in which to save the key (/home/cloudshell-user/.ssh/id_ed25519):                                                                                                                                               /home/cloudshell-user/.ssh/id_ed25519 already exists.                                                                                                                                                                      Overwrite (y/n)?
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984274
+- command: cat ~/.ssh/id_ed25519.pub                                                                                                                                          ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOH6cgQdyDL1U1wbs/jKB/aqxIpUPbM3KGnDPiCeT4mL jacoblee1190@gmail.com
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984311
+- command: ssh -T git@github.com                                                                                                                                              Hi jakelee1111/ai-recipe-generator! You've successfully authenticated, but GitHub does not provide shell access.
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984348
+- command: git push -u origin main                                                                                                                                            ERROR: Repository not found.                                                                                                                                                                                               fatal: Could not read from remote repository.                                                                                                                                                                                                                                                                                                                                                                                                         Please make sure you have the correct access rights                                                                                                                                                                        and the repository exists.
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984393
+- command: git init                                                                                                                                                           Reinitialized existing Git repository in /home/cloudshell-user/.git/
+  exit_code: 0
+  shell: bash
+  session_id: 5f37138097014724be4e8f82f842c593
+  cwd: /home/cloudshell-user
+  time: 1732984409
